@@ -1,0 +1,4800 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<exchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://download.autodesk.com/us/navisworks/schemas/nw-exchange-12.0.xsd" units="mm" filename="" filepath="">
+  <batchtest name="BIMnerd_clashtests" internal_name="BIMnerd_clashtests" units="mm">
+    <clashtests>
+	  <clashtest name="Duplicates 1x" test_type="duplicate" status="ok" tolerance="50.0000000000" merge_composites="1">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_1-_FUNDERINGEN</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_1-_FUNDERINGEN</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Duplicates 2x" test_type="duplicate" status="ok" tolerance="50.0000000000" merge_composites="1">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_2-_RUWBOUW</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_2-_RUWBOUW</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Duplicates 3x" test_type="duplicate" status="ok" tolerance="50.0000000000" merge_composites="1">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_3-_AFBOUW</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_3-_AFBOUW</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Duplicates 4x" test_type="duplicate" status="ok" tolerance="50.0000000000" merge_composites="1">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_4-_AFWERKINGEN</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_4-_AFWERKINGEN</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Duplicates 5x" test_type="duplicate" status="ok" tolerance="50.0000000000" merge_composites="1">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_5-_INSTALLATIES WERKTUIGBOUWKUNDIG</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_5-_INSTALLATIES WERKTUIGBOUWKUNDIG</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Duplicates 6x" test_type="duplicate" status="ok" tolerance="50.0000000000" merge_composites="1">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_6-_INSTALLATIES ELEKTROTECHNISCH</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_6-_INSTALLATIES ELEKTROTECHNISCH</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Duplicates 7x" test_type="duplicate" status="ok" tolerance="50.0000000000" merge_composites="1">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_7-_VASTE VOORZIENINGEN</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_7-_VASTE VOORZIENINGEN</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Duplicates 8x" test_type="duplicate" status="ok" tolerance="50.0000000000" merge_composites="1">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_8-_LOSSE INVENTARIS</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_8-_LOSSE INVENTARIS</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Duplicates 9x" test_type="duplicate" status="ok" tolerance="50.0000000000" merge_composites="1">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_9-_TERREIN</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_9-_TERREIN</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Overall 1x vs 1x" test_type="hard" status="ok" tolerance="50.0000000000" merge_composites="1">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_1-_FUNDERINGEN</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_1-_FUNDERINGEN</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Overall 1x vs 2x" test_type="hard" status="ok" tolerance="50.0000000000" merge_composites="1">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_1-_FUNDERINGEN</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_2-_RUWBOUW</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Overall 1x vs 3x" test_type="hard" status="ok" tolerance="50.0000000000" merge_composites="1">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_1-_FUNDERINGEN</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_3-_AFBOUW</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Overall 1x vs 4x" test_type="hard" status="ok" tolerance="50.0000000000" merge_composites="1">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_1-_FUNDERINGEN</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_4-_AFWERKINGEN</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Overall 1x vs 5x" test_type="hard" status="ok" tolerance="50.0000000000" merge_composites="1">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_1-_FUNDERINGEN</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_5-_INSTALLATIES WERKTUIGBOUWKUNDIG</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Overall 1x vs 6x" test_type="hard" status="ok" tolerance="50.0000000000" merge_composites="1">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_1-_FUNDERINGEN</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_6-_INSTALLATIES ELEKTROTECHNISCH</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Overall 1x vs 7x" test_type="hard" status="ok" tolerance="50.0000000000" merge_composites="1">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_1-_FUNDERINGEN</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_7-_VASTE VOORZIENINGEN</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Overall 1x vs 8x" test_type="hard" status="ok" tolerance="50.0000000000" merge_composites="1">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_1-_FUNDERINGEN</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_8-_LOSSE INVENTARIS</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Overall 1x vs 9x" test_type="hard" status="ok" tolerance="50.0000000000" merge_composites="1">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_1-_FUNDERINGEN</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_9-_TERREIN</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Overall 2x vs 2x" test_type="hard" status="ok" tolerance="50.0000000000" merge_composites="1">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_2-_RUWBOUW</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_2-_RUWBOUW</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Overall 2x vs 3x" test_type="hard" status="ok" tolerance="50.0000000000" merge_composites="1">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_2-_RUWBOUW</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_3-_AFBOUW</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Overall 2x vs 4x" test_type="hard" status="ok" tolerance="50.0000000000" merge_composites="1">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_2-_RUWBOUW</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_4-_AFWERKINGEN</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Overall 2x vs 5x" test_type="hard" status="ok" tolerance="50.0000000000" merge_composites="1">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_2-_RUWBOUW</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_5-_INSTALLATIES WERKTUIGBOUWKUNDIG</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Overall 2x vs 6x" test_type="hard" status="ok" tolerance="50.0000000000" merge_composites="1">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_2-_RUWBOUW</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_6-_INSTALLATIES ELEKTROTECHNISCH</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Overall 2x vs 7x" test_type="hard" status="ok" tolerance="50.0000000000" merge_composites="1">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_2-_RUWBOUW</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_7-_VASTE VOORZIENINGEN</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Overall 2x vs 8x" test_type="hard" status="ok" tolerance="50.0000000000" merge_composites="1">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_2-_RUWBOUW</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_8-_LOSSE INVENTARIS</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Overall 2x vs 9x" test_type="hard" status="ok" tolerance="50.0000000000" merge_composites="1">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_2-_RUWBOUW</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_9-_TERREIN</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Overall 3x vs 3x" test_type="hard" status="ok" tolerance="50.0000000000" merge_composites="1">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_3-_AFBOUW</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_3-_AFBOUW</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Overall 3x vs 4x" test_type="hard" status="ok" tolerance="50.0000000000" merge_composites="1">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_3-_AFBOUW</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_4-_AFWERKINGEN</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Overall 3x vs 5x" test_type="hard" status="ok" tolerance="50.0000000000" merge_composites="1">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_3-_AFBOUW</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_5-_INSTALLATIES WERKTUIGBOUWKUNDIG</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Overall 3x vs 6x" test_type="hard" status="ok" tolerance="50.0000000000" merge_composites="1">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_3-_AFBOUW</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_6-_INSTALLATIES ELEKTROTECHNISCH</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Overall 3x vs 7x" test_type="hard" status="ok" tolerance="50.0000000000" merge_composites="1">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_3-_AFBOUW</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_7-_VASTE VOORZIENINGEN</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Overall 3x vs 8x" test_type="hard" status="ok" tolerance="50.0000000000" merge_composites="1">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_3-_AFBOUW</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_8-_LOSSE INVENTARIS</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Overall 3x vs 9x" test_type="hard" status="ok" tolerance="50.0000000000" merge_composites="1">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_3-_AFBOUW</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_9-_TERREIN</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Overall 4x vs 4x" test_type="hard" status="ok" tolerance="50.0000000000" merge_composites="1">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_4-_AFWERKINGEN</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_4-_AFWERKINGEN</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Overall 4x vs 5x" test_type="hard" status="ok" tolerance="50.0000000000" merge_composites="1">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_4-_AFWERKINGEN</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_5-_INSTALLATIES WERKTUIGBOUWKUNDIG</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Overall 4x vs 6x" test_type="hard" status="ok" tolerance="50.0000000000" merge_composites="1">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_4-_AFWERKINGEN</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_6-_INSTALLATIES ELEKTROTECHNISCH</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Overall 4x vs 7x" test_type="hard" status="ok" tolerance="50.0000000000" merge_composites="1">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_4-_AFWERKINGEN</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_7-_VASTE VOORZIENINGEN</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Overall 4x vs 8x" test_type="hard" status="ok" tolerance="50.0000000000" merge_composites="1">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_4-_AFWERKINGEN</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_8-_LOSSE INVENTARIS</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Overall 4x vs 9x" test_type="hard" status="ok" tolerance="50.0000000000" merge_composites="1">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_4-_AFWERKINGEN</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_9-_TERREIN</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Overall 5x vs 5x" test_type="hard" status="ok" tolerance="50.0000000000" merge_composites="1">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_5-_INSTALLATIES WERKTUIGBOUWKUNDIG</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_5-_INSTALLATIES WERKTUIGBOUWKUNDIG</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Overall 5x vs 6x" test_type="hard" status="ok" tolerance="50.0000000000" merge_composites="1">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_5-_INSTALLATIES WERKTUIGBOUWKUNDIG</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_6-_INSTALLATIES ELEKTROTECHNISCH</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Overall 5x vs 7x" test_type="hard" status="ok" tolerance="50.0000000000" merge_composites="1">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_5-_INSTALLATIES WERKTUIGBOUWKUNDIG</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_7-_VASTE VOORZIENINGEN</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Overall 5x vs 8x" test_type="hard" status="ok" tolerance="50.0000000000" merge_composites="1">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_5-_INSTALLATIES WERKTUIGBOUWKUNDIG</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_8-_LOSSE INVENTARIS</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Overall 5x vs 9x" test_type="hard" status="ok" tolerance="50.0000000000" merge_composites="1">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_5-_INSTALLATIES WERKTUIGBOUWKUNDIG</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_9-_TERREIN</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Overall 6x vs 6x" test_type="hard" status="ok" tolerance="50.0000000000" merge_composites="1">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_6-_INSTALLATIES ELEKTROTECHNISCH</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_6-_INSTALLATIES ELEKTROTECHNISCH</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Overall 6x vs 7x" test_type="hard" status="ok" tolerance="50.0000000000" merge_composites="1">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_6-_INSTALLATIES ELEKTROTECHNISCH</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_7-_VASTE VOORZIENINGEN</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Overall 6x vs 8x" test_type="hard" status="ok" tolerance="50.0000000000" merge_composites="1">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_6-_INSTALLATIES ELEKTROTECHNISCH</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_8-_LOSSE INVENTARIS</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Overall 6x vs 9x" test_type="hard" status="ok" tolerance="50.0000000000" merge_composites="1">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_6-_INSTALLATIES ELEKTROTECHNISCH</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_9-_TERREIN</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Overall 7x vs 7x" test_type="hard" status="ok" tolerance="50.0000000000" merge_composites="1">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_7-_VASTE VOORZIENINGEN</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_7-_VASTE VOORZIENINGEN</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Overall 7x vs 8x" test_type="hard" status="ok" tolerance="50.0000000000" merge_composites="1">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_7-_VASTE VOORZIENINGEN</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_8-_LOSSE INVENTARIS</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Overall 7x vs 9x" test_type="hard" status="ok" tolerance="50.0000000000" merge_composites="1">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_7-_VASTE VOORZIENINGEN</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_9-_TERREIN</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Overall 8x vs 8x" test_type="hard" status="ok" tolerance="50.0000000000" merge_composites="1">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_8-_LOSSE INVENTARIS</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_8-_LOSSE INVENTARIS</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Overall 8x vs 9x" test_type="hard" status="ok" tolerance="50.0000000000" merge_composites="1">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_8-_LOSSE INVENTARIS</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_9-_TERREIN</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Overall 9x vs 9x" test_type="hard" status="ok" tolerance="50.0000000000" merge_composites="1">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_9-_TERREIN</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/Naam_9-_TERREIN</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+    </clashtests>
+    <selectionsets>
+      <viewfolder name="Naam_1-_FUNDERINGEN" guid="c1b619b7-6265-4f2a-8196-a597727badbf">
+        <selectionset name="Naam_11_bodemvoorzieningen" guid="19e7e4d4-74fb-4823-92b4-0d083aad76be">
+          <findspec mode="all" disjoint="0">
+            <conditions>
+              <condition test="wildcard" flags="10">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">11_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">11.?? *</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">NLRS_11_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:NLRS_11_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:11_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:11.?? *</data>
+                </value>
+              </condition>
+            </conditions>
+            <locator>/</locator>
+          </findspec>
+        </selectionset>
+        <selectionset name="Naam_13_vloeren op grondslag" guid="ab073c8a-12d0-4762-b10c-93f2a33173a7">
+          <findspec mode="all" disjoint="0">
+            <conditions>
+              <condition test="wildcard" flags="10">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">13_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">13.?? *</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">NLRS_13_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:NLRS_13_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:13_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:13.?? *</data>
+                </value>
+              </condition>
+            </conditions>
+            <locator>/</locator>
+          </findspec>
+        </selectionset>
+        <selectionset name="Naam_16_funderingsconstructies" guid="591411fa-4b19-4937-bb60-d63fe04abe78">
+          <findspec mode="all" disjoint="0">
+            <conditions>
+              <condition test="wildcard" flags="10">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">16_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">16.?? *</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">NLRS_16_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:NLRS_16_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:16_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:16.?? *</data>
+                </value>
+              </condition>
+            </conditions>
+            <locator>/</locator>
+          </findspec>
+        </selectionset>
+        <selectionset name="Naam_17_paalfunderingen" guid="82693064-90c9-4122-8b1e-a70000ebe824">
+          <findspec mode="all" disjoint="0">
+            <conditions>
+              <condition test="wildcard" flags="10">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">17_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">17.?? *</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">NLRS_17_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:NLRS_17_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:17_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:17.?? *</data>
+                </value>
+              </condition>
+            </conditions>
+            <locator>/</locator>
+          </findspec>
+        </selectionset>
+      </viewfolder>
+      <viewfolder name="Naam_2-_RUWBOUW" guid="2e69ce14-a6d1-4cae-ac6f-6458440edc9c">
+        <selectionset name="Naam_21_buitenwanden" guid="24654768-21ce-42a8-87cb-357b2b379760">
+          <findspec mode="all" disjoint="0">
+            <conditions>
+              <condition test="wildcard" flags="10">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">21_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">21.?? *</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">NLRS_21_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:NLRS_21_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:21_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:21.?? *</data>
+                </value>
+              </condition>
+            </conditions>
+            <locator>/</locator>
+          </findspec>
+        </selectionset>
+        <selectionset name="Naam_22_binnenwanden" guid="ca8c61fd-b0cd-4c76-98ff-73c138a3508d">
+          <findspec mode="all" disjoint="0">
+            <conditions>
+              <condition test="wildcard" flags="10">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">22_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">22.?? *</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">NLRS_22_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:NLRS_22_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:22_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:22.?? *</data>
+                </value>
+              </condition>
+            </conditions>
+            <locator>/</locator>
+          </findspec>
+        </selectionset>
+        <selectionset name="Naam_24_trappen en hellingen" guid="2c0d9125-079c-4dad-82e6-276cae8f6163">
+          <findspec mode="all" disjoint="0">
+            <conditions>
+              <condition test="wildcard" flags="10">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">24_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">24.?? *</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">NLRS_24_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:NLRS_24_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:24_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:24.?? *</data>
+                </value>
+              </condition>
+            </conditions>
+            <locator>/</locator>
+          </findspec>
+        </selectionset>
+        <selectionset name="Naam_23_vloeren" guid="d1c5954b-0384-4784-ae2a-4373dd531eef">
+          <findspec mode="all" disjoint="0">
+            <conditions>
+              <condition test="wildcard" flags="10">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">23_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">23.?? *</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">NLRS_23_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:NLRS_23_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:23_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:23.?? *</data>
+                </value>
+              </condition>
+            </conditions>
+            <locator>/</locator>
+          </findspec>
+        </selectionset>
+        <selectionset name="Naam_27_daken" guid="32f7e208-e2be-4e2c-98b4-605f4509a92c">
+          <findspec mode="all" disjoint="0">
+            <conditions>
+              <condition test="wildcard" flags="10">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">27_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">27.?? *</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">NLRS_27_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:NLRS_27_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:27_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:27.?? *</data>
+                </value>
+              </condition>
+            </conditions>
+            <locator>/</locator>
+          </findspec>
+        </selectionset>
+        <selectionset name="Naam_28_hoofddraagconstructies" guid="12eddf6d-83d7-4257-b8bb-f27c938a2c72">
+          <findspec mode="all" disjoint="0">
+            <conditions>
+              <condition test="wildcard" flags="10">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">28_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">28.?? *</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">NLRS_28_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:NLRS_28_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:28_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:28.?? *</data>
+                </value>
+              </condition>
+            </conditions>
+            <locator>/</locator>
+          </findspec>
+        </selectionset>
+      </viewfolder>
+      <viewfolder name="Naam_3-_AFBOUW" guid="73324618-f043-42d5-bd8d-cdea77b052ad">
+        <selectionset name="Naam_31_buitenwandopeningen" guid="62bd7077-f520-4bc8-a163-f2beb8b95a40">
+          <findspec mode="all" disjoint="0">
+            <conditions>
+              <condition test="wildcard" flags="10">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">31_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">31.?? *</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">NLRS_31_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:NLRS_31_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:31_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:31.?? *</data>
+                </value>
+              </condition>
+            </conditions>
+            <locator>/</locator>
+          </findspec>
+        </selectionset>
+        <selectionset name="Naam_32_binnenwandopeningen" guid="ac93261e-6170-45a6-95e9-a68f4b95e6f3">
+          <findspec mode="all" disjoint="0">
+            <conditions>
+              <condition test="wildcard" flags="10">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">32_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">32.?? *</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">NLRS_32_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:NLRS_32_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:32_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:32.?? *</data>
+                </value>
+              </condition>
+            </conditions>
+            <locator>/</locator>
+          </findspec>
+        </selectionset>
+        <selectionset name="Naam_33_vloeropeningen" guid="8e0c305d-3de9-41d3-b4e0-d1f7845aead2">
+          <findspec mode="all" disjoint="0">
+            <conditions>
+              <condition test="wildcard" flags="10">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">33_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">33.?? *</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">NLRS_33_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:NLRS_33_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:33_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:33.?? *</data>
+                </value>
+              </condition>
+            </conditions>
+            <locator>/</locator>
+          </findspec>
+        </selectionset>
+        <selectionset name="Naam_34_balustrades en leuningen" guid="1f91e901-f768-44b1-9e70-5cc7f2249ec6">
+          <findspec mode="all" disjoint="0">
+            <conditions>
+              <condition test="wildcard" flags="10">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">34_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">34.?? *</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">NLRS_34_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:NLRS_34_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:34_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:34.?? *</data>
+                </value>
+              </condition>
+            </conditions>
+            <locator>/</locator>
+          </findspec>
+        </selectionset>
+        <selectionset name="Naam_37_dakopeningen" guid="9a988bf3-a595-4998-9479-1efe0e2e6d40">
+          <findspec mode="all" disjoint="0">
+            <conditions>
+              <condition test="wildcard" flags="10">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">37_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">37.?? *</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">NLRS_37_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:NLRS_37_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:37_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:37.?? *</data>
+                </value>
+              </condition>
+            </conditions>
+            <locator>/</locator>
+          </findspec>
+        </selectionset>
+        <selectionset name="Naam_38_inbouwpakketten" guid="4c1be159-5be7-45fb-b05f-4b813ccde397">
+          <findspec mode="all" disjoint="0">
+            <conditions>
+              <condition test="wildcard" flags="10">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">38_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">38.?? *</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">NLRS_38_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:NLRS_38_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:38_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:38.?? *</data>
+                </value>
+              </condition>
+            </conditions>
+            <locator>/</locator>
+          </findspec>
+        </selectionset>
+      </viewfolder>
+      <viewfolder name="Naam_4-_AFWERKINGEN" guid="6d3730f5-fe18-45f0-8096-8e38cff898bd">
+        <selectionset name="Naam_41_buitenwandafwerkingen" guid="9cddf2c6-c32d-4202-9786-9bc3cdf0648a">
+          <findspec mode="all" disjoint="0">
+            <conditions>
+              <condition test="wildcard" flags="10">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">41_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">41.?? *</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">NLRS_41_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:NLRS_41_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:41_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:41.?? *</data>
+                </value>
+              </condition>
+            </conditions>
+            <locator>/</locator>
+          </findspec>
+        </selectionset>
+        <selectionset name="Naam_42_binnenwandafwerkingen" guid="4dbb0dc3-977a-4baf-8f4c-d25612d80eff">
+          <findspec mode="all" disjoint="0">
+            <conditions>
+              <condition test="wildcard" flags="10">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">42_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">42.?? *</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">NLRS_42_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:NLRS_42_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:42_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:42.?? *</data>
+                </value>
+              </condition>
+            </conditions>
+            <locator>/</locator>
+          </findspec>
+        </selectionset>
+        <selectionset name="Naam_43_vloerafwerkingen" guid="b357d60d-9623-439c-97df-4b76fc3cbad5">
+          <findspec mode="all" disjoint="0">
+            <conditions>
+              <condition test="wildcard" flags="10">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">43_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">43.?? *</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">NLRS_43_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:NLRS_43_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:43_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:43.?? *</data>
+                </value>
+              </condition>
+            </conditions>
+            <locator>/</locator>
+          </findspec>
+        </selectionset>
+        <selectionset name="Naam_44_trap- en hellingafwerkingen" guid="a0b8e2f8-ae32-44fc-969a-a38ec9dd1bd1">
+          <findspec mode="all" disjoint="0">
+            <conditions>
+              <condition test="wildcard" flags="10">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">44_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">44.?? *</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">NLRS_44_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:NLRS_44_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:44_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:44.?? *</data>
+                </value>
+              </condition>
+            </conditions>
+            <locator>/</locator>
+          </findspec>
+        </selectionset>
+        <selectionset name="Naam_45_plafondafwerkingen" guid="b7be07cf-a5db-4fee-9ae6-228260898c66">
+          <findspec mode="all" disjoint="0">
+            <conditions>
+              <condition test="wildcard" flags="10">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">45_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">45.?? *</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">NLRS_45_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:NLRS_45_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:45_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:45.?? *</data>
+                </value>
+              </condition>
+            </conditions>
+            <locator>/</locator>
+          </findspec>
+        </selectionset>
+        <selectionset name="Naam_47_dakafwerkingen" guid="dbaaa1da-3150-45d9-8319-b0a93b836d8b">
+          <findspec mode="all" disjoint="0">
+            <conditions>
+              <condition test="wildcard" flags="10">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">47_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">47.?? *</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">NLRS_47_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:NLRS_47_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:47_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:47.?? *</data>
+                </value>
+              </condition>
+            </conditions>
+            <locator>/</locator>
+          </findspec>
+        </selectionset>
+        <selectionset name="Naam_48_afwerkingspakketten" guid="f6f3e7f0-4547-4045-9c27-5def088d92a4">
+          <findspec mode="all" disjoint="0">
+            <conditions>
+              <condition test="wildcard" flags="10">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">48_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">48.?? *</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">NLRS_48_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:NLRS_48_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:48_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:48.?? *</data>
+                </value>
+              </condition>
+            </conditions>
+            <locator>/</locator>
+          </findspec>
+        </selectionset>
+      </viewfolder>
+      <viewfolder name="Naam_5-_INSTALLATIES WERKTUIGBOUWKUNDIG" guid="1d2a3ac0-ad7d-4599-9655-ea0708400d1c">
+        <selectionset name="Naam_51_warmte-opwekking" guid="22865a26-f4b8-4a94-97a7-11f45f9a7acd">
+          <findspec mode="all" disjoint="0">
+            <conditions>
+              <condition test="wildcard" flags="10">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">51_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">51.?? *</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">NLRS_51_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:NLRS_51_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:51_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:51.?? *</data>
+                </value>
+              </condition>
+            </conditions>
+            <locator>/</locator>
+          </findspec>
+        </selectionset>
+        <selectionset name="Naam_52_afvoeren" guid="39fae78c-0aaf-4cf6-a8c7-4aa693eaed22">
+          <findspec mode="all" disjoint="0">
+            <conditions>
+              <condition test="wildcard" flags="10">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">52_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">52.?? *</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">NLRS_52_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:NLRS_52_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:52_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:52.?? *</data>
+                </value>
+              </condition>
+            </conditions>
+            <locator>/</locator>
+          </findspec>
+        </selectionset>
+        <selectionset name="Naam_53_water" guid="bab6e8d0-22d3-430b-9293-6a05a7fc8a0b">
+          <findspec mode="all" disjoint="0">
+            <conditions>
+              <condition test="wildcard" flags="10">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">53_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">53.?? *</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">NLRS_53_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:NLRS_53_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:53_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:53.?? *</data>
+                </value>
+              </condition>
+            </conditions>
+            <locator>/</locator>
+          </findspec>
+        </selectionset>
+        <selectionset name="Naam_54_gassen" guid="1607e011-b7a8-4441-b180-490050445c53">
+          <findspec mode="all" disjoint="0">
+            <conditions>
+              <condition test="wildcard" flags="10">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">54_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">54.?? *</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">NLRS_54_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:NLRS_54_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:54_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:54.?? *</data>
+                </value>
+              </condition>
+            </conditions>
+            <locator>/</locator>
+          </findspec>
+        </selectionset>
+        <selectionset name="Naam_55_koude-opwekking en distributie" guid="1cf2feaf-4acf-417a-8806-85519874005e">
+          <findspec mode="all" disjoint="0">
+            <conditions>
+              <condition test="wildcard" flags="10">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">55_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">55.?? *</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">NLRS_55_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:NLRS_55_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:55_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:55.?? *</data>
+                </value>
+              </condition>
+            </conditions>
+            <locator>/</locator>
+          </findspec>
+        </selectionset>
+        <selectionset name="Naam_56_warmtedistributie" guid="4e918748-f6fa-4f7e-aa04-cd290549e5a5">
+          <findspec mode="all" disjoint="0">
+            <conditions>
+              <condition test="wildcard" flags="10">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">56_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">56.?? *</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">NLRS_56_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:NLRS_56_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:56_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:56.?? *</data>
+                </value>
+              </condition>
+            </conditions>
+            <locator>/</locator>
+          </findspec>
+        </selectionset>
+        <selectionset name="Naam_57_luchtbehandeling" guid="05545cd7-54b7-4594-b2fa-ed58e7f541ac">
+          <findspec mode="all" disjoint="0">
+            <conditions>
+              <condition test="wildcard" flags="10">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">57_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">57.?? *</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">NLRS_57_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:NLRS_57_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:57_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:57.?? *</data>
+                </value>
+              </condition>
+            </conditions>
+            <locator>/</locator>
+          </findspec>
+        </selectionset>
+        <selectionset name="Naam_58_regeling klimaat en sanitair" guid="2446085e-8a4f-4473-b0a7-d61572f3a914">
+          <findspec mode="all" disjoint="0">
+            <conditions>
+              <condition test="wildcard" flags="10">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">58_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">58.?? *</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">NLRS_58_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:NLRS_58_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:58_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:58.?? *</data>
+                </value>
+              </condition>
+            </conditions>
+            <locator>/</locator>
+          </findspec>
+        </selectionset>
+      </viewfolder>
+      <viewfolder name="Naam_6-_INSTALLATIES ELEKTROTECHNISCH" guid="9b08de33-73b4-4fe2-b111-854005e138a7">
+        <selectionset name="Naam_61_centrale electrotechnische voorzieningen" guid="e71a9803-b9e1-408b-bd17-fd944ca54bed">
+          <findspec mode="all" disjoint="0">
+            <conditions>
+              <condition test="wildcard" flags="10">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">61_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">61.?? *</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">NLRS_61_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:NLRS_61_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:61_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:61.?? *</data>
+                </value>
+              </condition>
+            </conditions>
+            <locator>/</locator>
+          </findspec>
+        </selectionset>
+        <selectionset name="Naam_62_krachtstroom" guid="d7c4449f-2b2d-4841-905a-65ff0cdcb23d">
+          <findspec mode="all" disjoint="0">
+            <conditions>
+              <condition test="wildcard" flags="10">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">62_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">62.?? *</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">NLRS_62_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:NLRS_62_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:62_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:62.?? *</data>
+                </value>
+              </condition>
+            </conditions>
+            <locator>/</locator>
+          </findspec>
+        </selectionset>
+        <selectionset name="Naam_63_verlichting" guid="a2583da1-796b-4b3a-aa49-b7372cc82114">
+          <findspec mode="all" disjoint="0">
+            <conditions>
+              <condition test="wildcard" flags="10">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">63_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">63.?? *</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">NLRS_63_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:NLRS_63_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:63_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:63.?? *</data>
+                </value>
+              </condition>
+            </conditions>
+            <locator>/</locator>
+          </findspec>
+        </selectionset>
+        <selectionset name="Naam_64_communicatie" guid="3f5e0acd-b171-45da-a0e1-ff761f7d3a4d">
+          <findspec mode="all" disjoint="0">
+            <conditions>
+              <condition test="wildcard" flags="10">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">64_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">64.?? *</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">NLRS_64_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:NLRS_64_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:64_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:64.?? *</data>
+                </value>
+              </condition>
+            </conditions>
+            <locator>/</locator>
+          </findspec>
+        </selectionset>
+        <selectionset name="Naam_65_beveiliging" guid="31963c3f-b1b8-4217-a978-d4784c394bca">
+          <findspec mode="all" disjoint="0">
+            <conditions>
+              <condition test="wildcard" flags="10">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">65_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">65.?? *</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">NLRS_65_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:NLRS_65_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:65_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:65.?? *</data>
+                </value>
+              </condition>
+            </conditions>
+            <locator>/</locator>
+          </findspec>
+        </selectionset>
+        <selectionset name="Naam_66_transport" guid="80686953-8231-4ac9-8b40-4b992dd395a2">
+          <findspec mode="all" disjoint="0">
+            <conditions>
+              <condition test="wildcard" flags="10">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">66_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">66.?? *</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">NLRS_66_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:NLRS_66_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:66_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:66.?? *</data>
+                </value>
+              </condition>
+            </conditions>
+            <locator>/</locator>
+          </findspec>
+        </selectionset>
+        <selectionset name="Naam_67_gebouwbeheervoorzieningen" guid="c08ea5cc-a8da-423a-8ff5-955a7069748a">
+          <findspec mode="all" disjoint="0">
+            <conditions>
+              <condition test="wildcard" flags="10">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">67_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">67.?? *</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">NLRS_67_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:NLRS_67_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:67_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:67.?? *</data>
+                </value>
+              </condition>
+            </conditions>
+            <locator>/</locator>
+          </findspec>
+        </selectionset>
+      </viewfolder>
+      <viewfolder name="Naam_7-_VASTE VOORZIENINGEN" guid="aa2d870b-2e35-46c7-a8f4-f10ef93a6856">
+        <selectionset name="Naam_71_vaste verkeersvoorzieningen" guid="e2ef8055-cbed-4227-98ef-35d445565840">
+          <findspec mode="all" disjoint="0">
+            <conditions>
+              <condition test="wildcard" flags="10">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">71_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">71.?? *</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">NLRS_71_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:NLRS_71_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:71_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:71.?? *</data>
+                </value>
+              </condition>
+            </conditions>
+            <locator>/</locator>
+          </findspec>
+        </selectionset>
+        <selectionset name="Naam_72_vaste gebruikersvoorzieningen" guid="c5d40353-396c-4ddd-9626-9e2cf3c6f299">
+          <findspec mode="all" disjoint="0">
+            <conditions>
+              <condition test="wildcard" flags="10">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">72_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">72.?? *</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">NLRS_72_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:NLRS_72_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:72_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:72.?? *</data>
+                </value>
+              </condition>
+            </conditions>
+            <locator>/</locator>
+          </findspec>
+        </selectionset>
+        <selectionset name="Naam_73_vaste keukenvoorzieningen" guid="8ef869b1-59dd-44e8-820b-d4e102b29300">
+          <findspec mode="all" disjoint="0">
+            <conditions>
+              <condition test="wildcard" flags="10">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">73_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">73.?? *</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">NLRS_73_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:NLRS_73_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:73_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:73.?? *</data>
+                </value>
+              </condition>
+            </conditions>
+            <locator>/</locator>
+          </findspec>
+        </selectionset>
+        <selectionset name="Naam_74_vaste sanitaire voorzieningen" guid="cbcf121b-d263-48e2-9fcd-737428db983c">
+          <findspec mode="all" disjoint="0">
+            <conditions>
+              <condition test="wildcard" flags="10">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">74_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">74.?? *</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">NLRS_74_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:NLRS_74_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:74_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:74.?? *</data>
+                </value>
+              </condition>
+            </conditions>
+            <locator>/</locator>
+          </findspec>
+        </selectionset>
+        <selectionset name="Naam_75_vaste onderhoudsvoorzieningen" guid="2e844a4c-91a6-4137-965c-2923801c2ca2">
+          <findspec mode="all" disjoint="0">
+            <conditions>
+              <condition test="wildcard" flags="10">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">75_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">75.?? *</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">NLRS_75_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:NLRS_75_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:75_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:75.?? *</data>
+                </value>
+              </condition>
+            </conditions>
+            <locator>/</locator>
+          </findspec>
+        </selectionset>
+        <selectionset name="Naam_76_vaste opslagvoorzieningen" guid="ddc3ae7d-419d-459c-9ceb-d408e13c86e6">
+          <findspec mode="all" disjoint="0">
+            <conditions>
+              <condition test="wildcard" flags="10">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">76_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">76.?? *</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">NLRS_76_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:NLRS_76_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:76_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:76.?? *</data>
+                </value>
+              </condition>
+            </conditions>
+            <locator>/</locator>
+          </findspec>
+        </selectionset>
+      </viewfolder>
+      <viewfolder name="Naam_8-_LOSSE INVENTARIS" guid="d8b4cc19-50ef-43b5-91a0-dd865c360da9">
+        <selectionset name="Naam_81_losse verkeersinventaris" guid="2b20604c-16c1-478d-8fd9-0ca77487dc3d">
+          <findspec mode="all" disjoint="0">
+            <conditions>
+              <condition test="wildcard" flags="10">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">81_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">81.?? *</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">NLRS_81_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:NLRS_81_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:81_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:81.?? *</data>
+                </value>
+              </condition>
+            </conditions>
+            <locator>/</locator>
+          </findspec>
+        </selectionset>
+        <selectionset name="Naam_82_losse gebruikersinventaris" guid="c06a7584-4812-4554-a34e-12914e55f1a8">
+          <findspec mode="all" disjoint="0">
+            <conditions>
+              <condition test="wildcard" flags="10">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">82_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">82.?? *</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">NLRS_82_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:NLRS_82_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:82_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:82.?? *</data>
+                </value>
+              </condition>
+            </conditions>
+            <locator>/</locator>
+          </findspec>
+        </selectionset>
+        <selectionset name="Naam_83_losse keukeninventaris" guid="9b95da1b-3aeb-4a1c-8fcd-ab53e0cd0672">
+          <findspec mode="all" disjoint="0">
+            <conditions>
+              <condition test="wildcard" flags="10">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">83_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">83.?? *</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">NLRS_83_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:NLRS_83_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:83_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:83.?? *</data>
+                </value>
+              </condition>
+            </conditions>
+            <locator>/</locator>
+          </findspec>
+        </selectionset>
+        <selectionset name="Naam_84_losse sanitaire inventaris" guid="537e61c9-d4a8-402d-8835-3759a156d80b">
+          <findspec mode="all" disjoint="0">
+            <conditions>
+              <condition test="wildcard" flags="10">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">84_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">84.?? *</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">NLRS_84_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:NLRS_84_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:84_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:84.?? *</data>
+                </value>
+              </condition>
+            </conditions>
+            <locator>/</locator>
+          </findspec>
+        </selectionset>
+        <selectionset name="Naam_85_losse schoonmaakinventaris" guid="43842ccd-4a45-4a94-accf-a06515b03211">
+          <findspec mode="all" disjoint="0">
+            <conditions>
+              <condition test="wildcard" flags="10">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">85_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">85.?? *</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">NLRS_85_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:NLRS_85_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:85_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:85.?? *</data>
+                </value>
+              </condition>
+            </conditions>
+            <locator>/</locator>
+          </findspec>
+        </selectionset>
+        <selectionset name="Naam_85_losse schoonmaakinventaris (Naamgeving_test.xml)" guid="8e2ffc5b-705a-4898-8ec0-5b3ee5056758">
+          <findspec mode="all" disjoint="0">
+            <conditions>
+              <condition test="wildcard" flags="10">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">86_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">86.?? *</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">NLRS_86_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:NLRS_86_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:86_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:86.?? *</data>
+                </value>
+              </condition>
+            </conditions>
+            <locator>/</locator>
+          </findspec>
+        </selectionset>
+      </viewfolder>
+      <viewfolder name="Naam_9-_TERREIN" guid="bd12f1df-a257-4880-95c1-540ee4b6952d">
+        <selectionset name="Naam_90_terrein" guid="7a3dca21-8750-4cf4-91d3-519a013e1c41">
+          <findspec mode="all" disjoint="0">
+            <conditions>
+              <condition test="wildcard" flags="10">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">90_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">90.?? *</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">NLRS_90_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:NLRS_90_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:90_*</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="74">
+                <property>
+                  <name internal="LcOaSceneBaseUserName">Name</name>
+                </property>
+                <value>
+                  <data type="wstring">*:90.?? *</data>
+                </value>
+              </condition>
+            </conditions>
+            <locator>/</locator>
+          </findspec>
+        </selectionset>
+      </viewfolder>
+      <selectionset name="Naamgeving_algemeen" guid="09ef2816-a3d8-4adb-9599-8420242adf59">
+        <findspec mode="all" disjoint="0">
+          <conditions>
+            <condition test="wildcard" flags="10">
+              <property>
+                <name internal="LcOaSceneBaseUserName">Name</name>
+              </property>
+              <value>
+                <data type="wstring">??_*</data>
+              </value>
+            </condition>
+            <condition test="wildcard" flags="74">
+              <property>
+                <name internal="LcOaSceneBaseUserName">Name</name>
+              </property>
+              <value>
+                <data type="wstring">??.?? *</data>
+              </value>
+            </condition>
+            <condition test="wildcard" flags="74">
+              <property>
+                <name internal="LcOaSceneBaseUserName">Name</name>
+              </property>
+              <value>
+                <data type="wstring">NLRS_??_*</data>
+              </value>
+            </condition>
+            <condition test="wildcard" flags="74">
+              <property>
+                <name internal="LcOaSceneBaseUserName">Name</name>
+              </property>
+              <value>
+                <data type="wstring">*:NLRS_??_*</data>
+              </value>
+            </condition>
+            <condition test="wildcard" flags="74">
+              <property>
+                <name internal="LcOaSceneBaseUserName">Name</name>
+              </property>
+              <value>
+                <data type="wstring">*:??_*</data>
+              </value>
+            </condition>
+            <condition test="wildcard" flags="74">
+              <property>
+                <name internal="LcOaSceneBaseUserName">Name</name>
+              </property>
+              <value>
+                <data type="wstring">*:??.?? *</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="Verdiepingen_algemeen" guid="85defb53-bf13-4f9b-ad98-3416a728e9c7">
+        <findspec mode="all" disjoint="1">
+          <conditions>
+            <condition test="wildcard" flags="10">
+              <property>
+                <name internal="LcOaNodeLayer">Layer</name>
+              </property>
+              <value>
+                <data type="wstring">?? * verdieping</data>
+              </value>
+            </condition>
+            <condition test="equals" flags="90">
+              <property>
+                <name internal="LcOaNodeLayer">Layer</name>
+              </property>
+              <value>
+                <data type="wstring">00 begane grond</data>
+              </value>
+            </condition>
+            <condition test="wildcard" flags="90">
+              <property>
+                <name internal="LcOaNodeLayer">Layer</name>
+              </property>
+              <value>
+                <data type="wstring">??_*_verdieping</data>
+              </value>
+            </condition>
+            <condition test="equals" flags="90">
+              <property>
+                <name internal="LcOaNodeLayer">Layer</name>
+              </property>
+              <value>
+                <data type="wstring">00_begane_grond</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <viewfolder name="Verdiepingen" guid="91605dd1-f49d-4a97-a1ee-e8f1d91694d6">
+        <selectionset name="_Onder de grond" guid="a8036a38-8798-4661-ab11-96be44e48450">
+          <findspec mode="all" disjoint="1">
+            <conditions>
+              <condition test="equals" flags="10">
+                <category>
+                  <name internal="LcIFCProperty">Pset_BuildingStoreyCommon</name>
+                </category>
+                <property>
+                  <name internal="IFCLogical">AboveGround</name>
+                </property>
+                <value>
+                  <data type="wstring">FALSE</data>
+                </value>
+              </condition>
+            </conditions>
+            <locator>/</locator>
+          </findspec>
+        </selectionset>
+        <selectionset name="_Boven de grond" guid="e89d0b3d-e81d-41dc-b50b-db98bd23baf9">
+          <findspec mode="all" disjoint="1">
+            <conditions>
+              <condition test="equals" flags="10">
+                <category>
+                  <name internal="LcIFCProperty">Pset_BuildingStoreyCommon</name>
+                </category>
+                <property>
+                  <name internal="IFCLogical">AboveGround</name>
+                </property>
+                <value>
+                  <data type="wstring">TRUE</data>
+                </value>
+              </condition>
+            </conditions>
+            <locator>/</locator>
+          </findspec>
+        </selectionset>
+        <selectionset name="00_begane_grond" guid="3d2bfefd-2c2c-4ea7-a211-e24f1c73f663">
+          <findspec mode="all" disjoint="1">
+            <conditions>
+              <condition test="wildcard" flags="10">
+                <property>
+                  <name internal="LcOaNodeLayer">Layer</name>
+                </property>
+                <value>
+                  <data type="wstring">00*</data>
+                </value>
+              </condition>
+              <condition test="equals" flags="90">
+                <property>
+                  <name internal="LcOaNodeLayer">Layer</name>
+                </property>
+                <value>
+                  <data type="wstring">00 begane grond</data>
+                </value>
+              </condition>
+              <condition test="contains" flags="90">
+                <property>
+                  <name internal="LcOaNodeLayer">Layer</name>
+                </property>
+                <value>
+                  <data type="wstring">bg</data>
+                </value>
+              </condition>
+            </conditions>
+            <locator>/</locator>
+          </findspec>
+        </selectionset>
+        <selectionset name="01_eerste_verdieping" guid="7f2ef6be-726e-43cc-894c-5eff72b1b1ca">
+          <findspec mode="all" disjoint="1">
+            <conditions>
+              <condition test="contains" flags="10">
+                <property>
+                  <name internal="LcOaNodeLayer">Layer</name>
+                </property>
+                <value>
+                  <data type="wstring">01</data>
+                </value>
+              </condition>
+              <condition test="equals" flags="90">
+                <property>
+                  <name internal="LcOaNodeLayer">Layer</name>
+                </property>
+                <value>
+                  <data type="wstring">01 eerste verdieping</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="90">
+                <property>
+                  <name internal="LcOaNodeLayer">Layer</name>
+                </property>
+                <value>
+                  <data type="wstring">01*verdieping</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="90">
+                <property>
+                  <name internal="LcOaNodeLayer">Layer</name>
+                </property>
+                <value>
+                  <data type="wstring">1e*</data>
+                </value>
+              </condition>
+            </conditions>
+            <locator>/</locator>
+          </findspec>
+        </selectionset>
+        <selectionset name="02_tweede_verdieping" guid="ff323881-038f-49f0-9a3e-3d3d6c2e3374">
+          <findspec mode="all" disjoint="1">
+            <conditions>
+              <condition test="contains" flags="10">
+                <property>
+                  <name internal="LcOaNodeLayer">Layer</name>
+                </property>
+                <value>
+                  <data type="wstring">02</data>
+                </value>
+              </condition>
+              <condition test="equals" flags="90">
+                <property>
+                  <name internal="LcOaNodeLayer">Layer</name>
+                </property>
+                <value>
+                  <data type="wstring">02 tweede verdieping</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="90">
+                <property>
+                  <name internal="LcOaNodeLayer">Layer</name>
+                </property>
+                <value>
+                  <data type="wstring">02*verdieping</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="90">
+                <property>
+                  <name internal="LcOaNodeLayer">Layer</name>
+                </property>
+                <value>
+                  <data type="wstring">2e*</data>
+                </value>
+              </condition>
+            </conditions>
+            <locator>/</locator>
+          </findspec>
+        </selectionset>
+        <selectionset name="03_derde_verdieping" guid="5787fc26-985a-4c6b-979b-2f9656f7dcce">
+          <findspec mode="all" disjoint="1">
+            <conditions>
+              <condition test="contains" flags="10">
+                <property>
+                  <name internal="LcOaNodeLayer">Layer</name>
+                </property>
+                <value>
+                  <data type="wstring">03</data>
+                </value>
+              </condition>
+              <condition test="equals" flags="90">
+                <property>
+                  <name internal="LcOaNodeLayer">Layer</name>
+                </property>
+                <value>
+                  <data type="wstring">03 derde verdieping</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="90">
+                <property>
+                  <name internal="LcOaNodeLayer">Layer</name>
+                </property>
+                <value>
+                  <data type="wstring">03*verdieping</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="90">
+                <property>
+                  <name internal="LcOaNodeLayer">Layer</name>
+                </property>
+                <value>
+                  <data type="wstring">3e*</data>
+                </value>
+              </condition>
+            </conditions>
+            <locator>/</locator>
+          </findspec>
+        </selectionset>
+        <selectionset name="04_vierde_verdieping" guid="1cdf9342-1f5b-4e95-8d68-59475dd45852">
+          <findspec mode="all" disjoint="1">
+            <conditions>
+              <condition test="contains" flags="10">
+                <property>
+                  <name internal="LcOaNodeLayer">Layer</name>
+                </property>
+                <value>
+                  <data type="wstring">04</data>
+                </value>
+              </condition>
+              <condition test="equals" flags="90">
+                <property>
+                  <name internal="LcOaNodeLayer">Layer</name>
+                </property>
+                <value>
+                  <data type="wstring">04 vierde verdieping</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="90">
+                <property>
+                  <name internal="LcOaNodeLayer">Layer</name>
+                </property>
+                <value>
+                  <data type="wstring">04*verdieping</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="90">
+                <property>
+                  <name internal="LcOaNodeLayer">Layer</name>
+                </property>
+                <value>
+                  <data type="wstring">4e*</data>
+                </value>
+              </condition>
+            </conditions>
+            <locator>/</locator>
+          </findspec>
+        </selectionset>
+        <selectionset name="05_vijfde_verdieping" guid="2c21bb87-ced7-4a5e-b55c-b9eb7fc596f6">
+          <findspec mode="all" disjoint="1">
+            <conditions>
+              <condition test="contains" flags="10">
+                <property>
+                  <name internal="LcOaNodeLayer">Layer</name>
+                </property>
+                <value>
+                  <data type="wstring">05</data>
+                </value>
+              </condition>
+              <condition test="equals" flags="90">
+                <property>
+                  <name internal="LcOaNodeLayer">Layer</name>
+                </property>
+                <value>
+                  <data type="wstring">05 vijfde verdieping</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="90">
+                <property>
+                  <name internal="LcOaNodeLayer">Layer</name>
+                </property>
+                <value>
+                  <data type="wstring">05*verdieping</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="90">
+                <property>
+                  <name internal="LcOaNodeLayer">Layer</name>
+                </property>
+                <value>
+                  <data type="wstring">5e*</data>
+                </value>
+              </condition>
+            </conditions>
+            <locator>/</locator>
+          </findspec>
+        </selectionset>
+        <selectionset name="06_zesde_verdieping" guid="1eb35dfe-8222-46e6-9af3-7b3d92bfe0b9">
+          <findspec mode="all" disjoint="1">
+            <conditions>
+              <condition test="contains" flags="10">
+                <property>
+                  <name internal="LcOaNodeLayer">Layer</name>
+                </property>
+                <value>
+                  <data type="wstring">06</data>
+                </value>
+              </condition>
+              <condition test="equals" flags="90">
+                <property>
+                  <name internal="LcOaNodeLayer">Layer</name>
+                </property>
+                <value>
+                  <data type="wstring">06 zesde verdieping</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="90">
+                <property>
+                  <name internal="LcOaNodeLayer">Layer</name>
+                </property>
+                <value>
+                  <data type="wstring">06*verdieping</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="90">
+                <property>
+                  <name internal="LcOaNodeLayer">Layer</name>
+                </property>
+                <value>
+                  <data type="wstring">6e*</data>
+                </value>
+              </condition>
+            </conditions>
+            <locator>/</locator>
+          </findspec>
+        </selectionset>
+        <selectionset name="07_zevende_verdieping" guid="a2677f24-ef76-495d-8fe5-afa93eed542c">
+          <findspec mode="all" disjoint="1">
+            <conditions>
+              <condition test="contains" flags="10">
+                <property>
+                  <name internal="LcOaNodeLayer">Layer</name>
+                </property>
+                <value>
+                  <data type="wstring">07</data>
+                </value>
+              </condition>
+              <condition test="equals" flags="90">
+                <property>
+                  <name internal="LcOaNodeLayer">Layer</name>
+                </property>
+                <value>
+                  <data type="wstring">07 zevende verdieping</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="90">
+                <property>
+                  <name internal="LcOaNodeLayer">Layer</name>
+                </property>
+                <value>
+                  <data type="wstring">07*verdieping</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="90">
+                <property>
+                  <name internal="LcOaNodeLayer">Layer</name>
+                </property>
+                <value>
+                  <data type="wstring">7e*</data>
+                </value>
+              </condition>
+            </conditions>
+            <locator>/</locator>
+          </findspec>
+        </selectionset>
+        <selectionset name="08_achtste_verdieping" guid="b1366219-ccb7-4477-8698-d968e5b265f6">
+          <findspec mode="all" disjoint="1">
+            <conditions>
+              <condition test="contains" flags="10">
+                <property>
+                  <name internal="LcOaNodeLayer">Layer</name>
+                </property>
+                <value>
+                  <data type="wstring">08</data>
+                </value>
+              </condition>
+              <condition test="equals" flags="90">
+                <property>
+                  <name internal="LcOaNodeLayer">Layer</name>
+                </property>
+                <value>
+                  <data type="wstring">08 achtste verdieping</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="90">
+                <property>
+                  <name internal="LcOaNodeLayer">Layer</name>
+                </property>
+                <value>
+                  <data type="wstring">08*verdieping</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="90">
+                <property>
+                  <name internal="LcOaNodeLayer">Layer</name>
+                </property>
+                <value>
+                  <data type="wstring">8e*</data>
+                </value>
+              </condition>
+            </conditions>
+            <locator>/</locator>
+          </findspec>
+        </selectionset>
+        <selectionset name="09_negende_verdieping" guid="c8ff4568-9312-4f65-b19c-19a72a174894">
+          <findspec mode="all" disjoint="1">
+            <conditions>
+              <condition test="contains" flags="10">
+                <property>
+                  <name internal="LcOaNodeLayer">Layer</name>
+                </property>
+                <value>
+                  <data type="wstring">09</data>
+                </value>
+              </condition>
+              <condition test="equals" flags="90">
+                <property>
+                  <name internal="LcOaNodeLayer">Layer</name>
+                </property>
+                <value>
+                  <data type="wstring">09 negende verdieping</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="90">
+                <property>
+                  <name internal="LcOaNodeLayer">Layer</name>
+                </property>
+                <value>
+                  <data type="wstring">09*verdieping</data>
+                </value>
+              </condition>
+              <condition test="wildcard" flags="90">
+                <property>
+                  <name internal="LcOaNodeLayer">Layer</name>
+                </property>
+                <value>
+                  <data type="wstring">9e*</data>
+                </value>
+              </condition>
+            </conditions>
+            <locator>/</locator>
+          </findspec>
+        </selectionset>
+      </viewfolder>
+      <viewfolder name="IfcEntity" guid="58158993-7c46-40a3-8612-bf4ab33e1b3e">
+        <selectionset name="IfcBeam" guid="cf3c0e95-f364-4eea-9b42-393162bf07a1">
+          <findspec mode="all" disjoint="1">
+            <conditions>
+              <condition test="equals" flags="10">
+                <category>
+                  <name internal="LcOaNode">Item</name>
+                </category>
+                <property>
+                  <name internal="LcOaSceneBaseClassUserName">Type</name>
+                </property>
+                <value>
+                  <data type="wstring">IFCBEAM</data>
+                </value>
+              </condition>
+            </conditions>
+            <locator>/</locator>
+          </findspec>
+        </selectionset>
+        <selectionset name="IfcDoor" guid="4c4bdb72-1108-4522-8fd2-72372d2d804e">
+          <findspec mode="all" disjoint="1">
+            <conditions>
+              <condition test="equals" flags="10">
+                <category>
+                  <name internal="LcOaNode">Item</name>
+                </category>
+                <property>
+                  <name internal="LcOaSceneBaseClassUserName">Type</name>
+                </property>
+                <value>
+                  <data type="wstring">IFCDOOR</data>
+                </value>
+              </condition>
+            </conditions>
+            <locator>/</locator>
+          </findspec>
+        </selectionset>
+        <selectionset name="IfcWindow" guid="933372d4-f09f-407b-95c8-a515c39c5a26">
+          <findspec mode="all" disjoint="1">
+            <conditions>
+              <condition test="equals" flags="10">
+                <category>
+                  <name internal="LcOaNode">Item</name>
+                </category>
+                <property>
+                  <name internal="LcOaSceneBaseClassUserName">Type</name>
+                </property>
+                <value>
+                  <data type="wstring">IFCWINDOW</data>
+                </value>
+              </condition>
+            </conditions>
+            <locator>/</locator>
+          </findspec>
+        </selectionset>
+        <selectionset name="IfcStair" guid="1a9e3f2b-9722-46dc-8881-4f5571c05481">
+          <findspec mode="all" disjoint="1">
+            <conditions>
+              <condition test="equals" flags="10">
+                <category>
+                  <name internal="LcOaNode">Item</name>
+                </category>
+                <property>
+                  <name internal="LcOaSceneBaseClassUserName">Type</name>
+                </property>
+                <value>
+                  <data type="wstring">IFCSTAIR</data>
+                </value>
+              </condition>
+            </conditions>
+            <locator>/</locator>
+          </findspec>
+        </selectionset>
+        <selectionset name="IfcBuildingElementProxy" guid="6286b101-9e08-4ac8-8b58-2329f0dae59c">
+          <findspec mode="all" disjoint="1">
+            <conditions>
+              <condition test="equals" flags="10">
+                <category>
+                  <name internal="LcOaNode">Item</name>
+                </category>
+                <property>
+                  <name internal="LcOaSceneBaseClassUserName">Type</name>
+                </property>
+                <value>
+                  <data type="wstring">IFCBUILDINGELEMENTPROXY</data>
+                </value>
+              </condition>
+            </conditions>
+            <locator>/</locator>
+          </findspec>
+        </selectionset>
+        <selectionset name="IfcGrid" guid="2302c3ec-87f7-4758-ba8f-3d3edc621864">
+          <findspec mode="all" disjoint="1">
+            <conditions>
+              <condition test="equals" flags="10">
+                <category>
+                  <name internal="LcOaNode">Item</name>
+                </category>
+                <property>
+                  <name internal="LcOaSceneBaseClassUserName">Type</name>
+                </property>
+                <value>
+                  <data type="wstring">IFCGRID</data>
+                </value>
+              </condition>
+            </conditions>
+            <locator>/</locator>
+          </findspec>
+        </selectionset>
+        <selectionset name="IfcCurtainWall" guid="ccd1aa12-317d-426c-be7a-c703e884ee60">
+          <findspec mode="all" disjoint="1">
+            <conditions>
+              <condition test="equals" flags="10">
+                <category>
+                  <name internal="LcOaNode">Item</name>
+                </category>
+                <property>
+                  <name internal="LcOaSceneBaseClassUserName">Type</name>
+                </property>
+                <value>
+                  <data type="wstring">IFCCURTAINWALL</data>
+                </value>
+              </condition>
+            </conditions>
+            <locator>/</locator>
+          </findspec>
+        </selectionset>
+        <selectionset name="IfcRailing" guid="be90dacd-e4a2-4cc2-b8c9-009923064313">
+          <findspec mode="all" disjoint="1">
+            <conditions>
+              <condition test="equals" flags="10">
+                <category>
+                  <name internal="LcOaNode">Item</name>
+                </category>
+                <property>
+                  <name internal="LcOaSceneBaseClassUserName">Type</name>
+                </property>
+                <value>
+                  <data type="wstring">IFCRAILING</data>
+                </value>
+              </condition>
+            </conditions>
+            <locator>/</locator>
+          </findspec>
+        </selectionset>
+        <selectionset name="IfcWall (standardcase)" guid="de2a1166-b90c-47e7-abdd-ac89828e970e">
+          <findspec mode="all" disjoint="1">
+            <conditions>
+              <condition test="equals" flags="10">
+                <category>
+                  <name internal="LcOaNode">Item</name>
+                </category>
+                <property>
+                  <name internal="LcOaSceneBaseClassUserName">Type</name>
+                </property>
+                <value>
+                  <data type="wstring">IFCWALL</data>
+                </value>
+              </condition>
+              <condition test="equals" flags="74">
+                <category>
+                  <name internal="LcOaNode">Item</name>
+                </category>
+                <property>
+                  <name internal="LcOaSceneBaseClassUserName">Type</name>
+                </property>
+                <value>
+                  <data type="wstring">IFCWALLSTANDARDCASE</data>
+                </value>
+              </condition>
+            </conditions>
+            <locator>/</locator>
+          </findspec>
+        </selectionset>
+        <selectionset name="IfcSlab" guid="b65d6c1c-8b7f-438f-8812-2b4f5182f923">
+          <findspec mode="all" disjoint="1">
+            <conditions>
+              <condition test="equals" flags="10">
+                <category>
+                  <name internal="LcOaNode">Item</name>
+                </category>
+                <property>
+                  <name internal="LcOaSceneBaseClassUserName">Type</name>
+                </property>
+                <value>
+                  <data type="wstring">IFCSLAB</data>
+                </value>
+              </condition>
+            </conditions>
+            <locator>/</locator>
+          </findspec>
+        </selectionset>
+        <selectionset name="IfcRoof (IfcSlab.ROOF)" guid="e465b05f-bf94-498f-808d-5eea5fad537d">
+          <findspec mode="all" disjoint="1">
+            <conditions>
+              <condition test="equals" flags="10">
+                <property>
+                  <name internal="LcOaSceneBaseClassUserName">Type</name>
+                </property>
+                <value>
+                  <data type="wstring">IFCSLAB</data>
+                </value>
+              </condition>
+              <condition test="equals" flags="10">
+                <category>
+                  <name internal="LcIFCProperty">IFC</name>
+                </category>
+                <property>
+                  <name internal="IFCString">PREDEFINEDTYPE</name>
+                </property>
+                <value>
+                  <data type="wstring">ROOF</data>
+                </value>
+              </condition>
+            </conditions>
+            <locator>/</locator>
+          </findspec>
+        </selectionset>
+        <selectionset name="IfcFloor (IfcSlab.FLOOR)" guid="37784846-1dd2-4522-961c-959a4c4c250d">
+          <findspec mode="all" disjoint="1">
+            <conditions>
+              <condition test="equals" flags="10">
+                <property>
+                  <name internal="LcOaSceneBaseClassUserName">Type</name>
+                </property>
+                <value>
+                  <data type="wstring">IFCSLAB</data>
+                </value>
+              </condition>
+              <condition test="equals" flags="10">
+                <category>
+                  <name internal="LcIFCProperty">IFC</name>
+                </category>
+                <property>
+                  <name internal="IFCString">PREDEFINEDTYPE</name>
+                </property>
+                <value>
+                  <data type="wstring">FLOOR</data>
+                </value>
+              </condition>
+            </conditions>
+            <locator>/</locator>
+          </findspec>
+        </selectionset>
+        <selectionset name="IfcCeiling (IfcSlab.CEILING)" guid="428bc204-139b-461a-9b22-ad729b85ee1e">
+          <findspec mode="all" disjoint="1">
+            <conditions>
+              <condition test="equals" flags="10">
+                <property>
+                  <name internal="LcOaSceneBaseClassUserName">Type</name>
+                </property>
+                <value>
+                  <data type="wstring">IFCSLAB</data>
+                </value>
+              </condition>
+              <condition test="equals" flags="10">
+                <category>
+                  <name internal="LcIFCProperty">IFC</name>
+                </category>
+                <property>
+                  <name internal="IFCString">PREDEFINEDTYPE</name>
+                </property>
+                <value>
+                  <data type="wstring">CEILING</data>
+                </value>
+              </condition>
+            </conditions>
+            <locator>/</locator>
+          </findspec>
+        </selectionset>
+        <selectionset name="IfcInsulation (predefinedtype)" guid="d6c841de-6487-481b-b3cd-44ad53a75152">
+          <findspec mode="all" disjoint="1">
+            <conditions>
+              <condition test="equals" flags="10">
+                <category>
+                  <name internal="LcIFCProperty">IFC</name>
+                </category>
+                <property>
+                  <name internal="IFCString">PREDEFINEDTYPE</name>
+                </property>
+                <value>
+                  <data type="wstring">INSULATION</data>
+                </value>
+              </condition>
+            </conditions>
+            <locator>/</locator>
+          </findspec>
+        </selectionset>
+        <selectionset name="IfcColumn" guid="0c540e9b-0964-46ae-9e47-1dbe7003d537">
+          <findspec mode="all" disjoint="1">
+            <conditions>
+              <condition test="equals" flags="10">
+                <category>
+                  <name internal="LcOaNode">Item</name>
+                </category>
+                <property>
+                  <name internal="LcOaSceneBaseClassUserName">Type</name>
+                </property>
+                <value>
+                  <data type="wstring">IFCCOLUMN</data>
+                </value>
+              </condition>
+            </conditions>
+            <locator>/</locator>
+          </findspec>
+        </selectionset>
+        <selectionset name="IfcCovering" guid="8131705a-fc2c-4af3-b2a9-7417db533b91">
+          <findspec mode="all" disjoint="1">
+            <conditions>
+              <condition test="equals" flags="10">
+                <category>
+                  <name internal="LcOaNode">Item</name>
+                </category>
+                <property>
+                  <name internal="LcOaSceneBaseClassUserName">Type</name>
+                </property>
+                <value>
+                  <data type="wstring">IFCCOVERING</data>
+                </value>
+              </condition>
+            </conditions>
+            <locator>/</locator>
+          </findspec>
+        </selectionset>
+        <selectionset name="IfcMember" guid="d45cb25d-0cb1-41c9-9706-2449a5d42242">
+          <findspec mode="all" disjoint="1">
+            <conditions>
+              <condition test="equals" flags="10">
+                <category>
+                  <name internal="LcOaNode">Item</name>
+                </category>
+                <property>
+                  <name internal="LcOaSceneBaseClassUserName">Type</name>
+                </property>
+                <value>
+                  <data type="wstring">IFCMEMBER</data>
+                </value>
+              </condition>
+            </conditions>
+            <locator>/</locator>
+          </findspec>
+        </selectionset>
+        <selectionset name="IfcSpace" guid="c82a048c-caa4-4029-80a0-e392c136ce22">
+          <findspec mode="all" disjoint="1">
+            <conditions>
+              <condition test="equals" flags="10">
+                <category>
+                  <name internal="LcOaNode">Item</name>
+                </category>
+                <property>
+                  <name internal="LcOaSceneBaseClassUserName">Type</name>
+                </property>
+                <value>
+                  <data type="wstring">IFCSPACE</data>
+                </value>
+              </condition>
+            </conditions>
+            <locator>/</locator>
+          </findspec>
+        </selectionset>
+      </viewfolder>
+      <selectionset name="LoadBearing_TRUE" guid="a113aa97-2ffa-439d-9696-6fbc3de6e82d">
+        <findspec mode="all" disjoint="1">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="LcIFCProperty">Pset_BeamCommon</name>
+              </category>
+              <property>
+                <name internal="IFCBoolean">LoadBearing</name>
+              </property>
+              <value>
+                <data type="wstring">TRUE</data>
+              </value>
+            </condition>
+            <condition test="equals" flags="74">
+              <category>
+                <name internal="LcIFCProperty">Pset_ColumnCommon</name>
+              </category>
+              <property>
+                <name internal="IFCBoolean">LoadBearing</name>
+              </property>
+              <value>
+                <data type="wstring">TRUE</data>
+              </value>
+            </condition>
+            <condition test="equals" flags="74">
+              <category>
+                <name internal="LcIFCProperty">Pset_MemberCommon</name>
+              </category>
+              <property>
+                <name internal="IFCBoolean">LoadBearing</name>
+              </property>
+              <value>
+                <data type="wstring">TRUE</data>
+              </value>
+            </condition>
+            <condition test="equals" flags="74">
+              <category>
+                <name internal="LcIFCProperty">Pset_WallCommon</name>
+              </category>
+              <property>
+                <name internal="IFCBoolean">LoadBearing</name>
+              </property>
+              <value>
+                <data type="wstring">TRUE</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="LoadBearing_FALSE" guid="d9de78df-1062-421d-9fe5-162aed28c385">
+        <findspec mode="all" disjoint="1">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="LcIFCProperty">Pset_BeamCommon</name>
+              </category>
+              <property>
+                <name internal="IFCBoolean">LoadBearing</name>
+              </property>
+              <value>
+                <data type="wstring">FALSE</data>
+              </value>
+            </condition>
+            <condition test="equals" flags="74">
+              <category>
+                <name internal="LcIFCProperty">Pset_ColumnCommon</name>
+              </category>
+              <property>
+                <name internal="IFCBoolean">LoadBearing</name>
+              </property>
+              <value>
+                <data type="wstring">FALSE</data>
+              </value>
+            </condition>
+            <condition test="equals" flags="74">
+              <category>
+                <name internal="LcIFCProperty">Pset_MemberCommon</name>
+              </category>
+              <property>
+                <name internal="IFCBoolean">LoadBearing</name>
+              </property>
+              <value>
+                <data type="wstring">FALSE</data>
+              </value>
+            </condition>
+            <condition test="equals" flags="74">
+              <category>
+                <name internal="LcIFCProperty">Pset_WallCommon</name>
+              </category>
+              <property>
+                <name internal="IFCBoolean">LoadBearing</name>
+              </property>
+              <value>
+                <data type="wstring">FALSE</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="IsExternal_TRUE" guid="b8a0cc4c-fdff-4029-acdb-70887943e288">
+        <findspec mode="all" disjoint="1">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="LcIFCProperty">Pset_BeamCommon</name>
+              </category>
+              <property>
+                <name internal="IFCBoolean">IsExternal</name>
+              </property>
+              <value>
+                <data type="wstring">TRUE</data>
+              </value>
+            </condition>
+            <condition test="equals" flags="74">
+              <category>
+                <name internal="LcIFCProperty">Pset_ColumnCommon</name>
+              </category>
+              <property>
+                <name internal="IFCBoolean">IsExternal</name>
+              </property>
+              <value>
+                <data type="wstring">TRUE</data>
+              </value>
+            </condition>
+            <condition test="equals" flags="74">
+              <category>
+                <name internal="LcIFCProperty">Pset_CurtainWallCommon</name>
+              </category>
+              <property>
+                <name internal="IFCBoolean">IsExternal</name>
+              </property>
+              <value>
+                <data type="wstring">TRUE</data>
+              </value>
+            </condition>
+            <condition test="equals" flags="74">
+              <category>
+                <name internal="LcIFCProperty">Pset_DoorCommon</name>
+              </category>
+              <property>
+                <name internal="IFCBoolean">IsExternal</name>
+              </property>
+              <value>
+                <data type="wstring">TRUE</data>
+              </value>
+            </condition>
+            <condition test="equals" flags="74">
+              <category>
+                <name internal="LcIFCProperty">Pset_MemberCommon</name>
+              </category>
+              <property>
+                <name internal="IFCBoolean">IsExternal</name>
+              </property>
+              <value>
+                <data type="wstring">TRUE</data>
+              </value>
+            </condition>
+            <condition test="equals" flags="74">
+              <category>
+                <name internal="LcIFCProperty">Pset_RailingCommon</name>
+              </category>
+              <property>
+                <name internal="IFCBoolean">IsExternal</name>
+              </property>
+              <value>
+                <data type="wstring">TRUE</data>
+              </value>
+            </condition>
+            <condition test="equals" flags="74">
+              <category>
+                <name internal="LcIFCProperty">Pset_SlabCommon</name>
+              </category>
+              <property>
+                <name internal="IFCBoolean">IsExternal</name>
+              </property>
+              <value>
+                <data type="wstring">TRUE</data>
+              </value>
+            </condition>
+            <condition test="equals" flags="74">
+              <category>
+                <name internal="LcIFCProperty">Pset_StairCommon</name>
+              </category>
+              <property>
+                <name internal="IFCBoolean">IsExternal</name>
+              </property>
+              <value>
+                <data type="wstring">TRUE</data>
+              </value>
+            </condition>
+            <condition test="equals" flags="74">
+              <category>
+                <name internal="LcIFCProperty">Pset_WallCommon</name>
+              </category>
+              <property>
+                <name internal="IFCBoolean">IsExternal</name>
+              </property>
+              <value>
+                <data type="wstring">TRUE</data>
+              </value>
+            </condition>
+            <condition test="equals" flags="74">
+              <category>
+                <name internal="LcIFCProperty">Pset_WindowCommon</name>
+              </category>
+              <property>
+                <name internal="IFCBoolean">IsExternal</name>
+              </property>
+              <value>
+                <data type="wstring">TRUE</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="IsExternal_FALSE" guid="374bda1a-1e36-40bc-ac33-a3c67f65772b">
+        <findspec mode="all" disjoint="1">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="LcIFCProperty">Pset_BeamCommon</name>
+              </category>
+              <property>
+                <name internal="IFCBoolean">IsExternal</name>
+              </property>
+              <value>
+                <data type="wstring">FALSE</data>
+              </value>
+            </condition>
+            <condition test="equals" flags="74">
+              <category>
+                <name internal="LcIFCProperty">Pset_ColumnCommon</name>
+              </category>
+              <property>
+                <name internal="IFCBoolean">IsExternal</name>
+              </property>
+              <value>
+                <data type="wstring">FALSE</data>
+              </value>
+            </condition>
+            <condition test="equals" flags="74">
+              <category>
+                <name internal="LcIFCProperty">Pset_CurtainWallCommon</name>
+              </category>
+              <property>
+                <name internal="IFCBoolean">IsExternal</name>
+              </property>
+              <value>
+                <data type="wstring">FALSE</data>
+              </value>
+            </condition>
+            <condition test="equals" flags="74">
+              <category>
+                <name internal="LcIFCProperty">Pset_DoorCommon</name>
+              </category>
+              <property>
+                <name internal="IFCBoolean">IsExternal</name>
+              </property>
+              <value>
+                <data type="wstring">FALSE</data>
+              </value>
+            </condition>
+            <condition test="equals" flags="74">
+              <category>
+                <name internal="LcIFCProperty">Pset_MemberCommon</name>
+              </category>
+              <property>
+                <name internal="IFCBoolean">IsExternal</name>
+              </property>
+              <value>
+                <data type="wstring">FALSE</data>
+              </value>
+            </condition>
+            <condition test="equals" flags="74">
+              <category>
+                <name internal="LcIFCProperty">Pset_RailingCommon</name>
+              </category>
+              <property>
+                <name internal="IFCBoolean">IsExternal</name>
+              </property>
+              <value>
+                <data type="wstring">FALSE</data>
+              </value>
+            </condition>
+            <condition test="equals" flags="74">
+              <category>
+                <name internal="LcIFCProperty">Pset_SlabCommon</name>
+              </category>
+              <property>
+                <name internal="IFCBoolean">IsExternal</name>
+              </property>
+              <value>
+                <data type="wstring">FALSE</data>
+              </value>
+            </condition>
+            <condition test="equals" flags="74">
+              <category>
+                <name internal="LcIFCProperty">Pset_StairCommon</name>
+              </category>
+              <property>
+                <name internal="IFCBoolean">IsExternal</name>
+              </property>
+              <value>
+                <data type="wstring">FALSE</data>
+              </value>
+            </condition>
+            <condition test="equals" flags="74">
+              <category>
+                <name internal="LcIFCProperty">Pset_WallCommon</name>
+              </category>
+              <property>
+                <name internal="IFCBoolean">IsExternal</name>
+              </property>
+              <value>
+                <data type="wstring">FALSE</data>
+              </value>
+            </condition>
+            <condition test="equals" flags="74">
+              <category>
+                <name internal="LcIFCProperty">Pset_WindowCommon</name>
+              </category>
+              <property>
+                <name internal="IFCBoolean">IsExternal</name>
+              </property>
+              <value>
+                <data type="wstring">FALSE</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+    </selectionsets>
+  </batchtest>
+</exchange>
